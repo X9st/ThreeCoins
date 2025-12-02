@@ -553,7 +553,7 @@ const App: React.FC = () => {
         </div>
 
         {/* Footer Actions */}
-        <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-stone-200 p-4 flex gap-4 max-w-md mx-auto shadow-negative z-20">
+        <div className="safe-area-bottom-fixed fixed bottom-0 left-0 right-0 bg-white border-t border-stone-200 p-4 flex gap-4 max-w-md mx-auto shadow-negative z-20">
             <button onClick={handleReset} className="flex-1 py-3 border border-stone-300 rounded-lg text-stone-600 font-serif flex items-center justify-center gap-2 hover:bg-stone-50 active:scale-95 transition-transform">
                 <RefreshCcw size={18} /> 重新起卦
             </button>
@@ -631,7 +631,7 @@ const App: React.FC = () => {
   );
 
   return (
-    <div className="min-h-screen max-w-md mx-auto bg-[#f5f5f0] shadow-2xl overflow-hidden relative font-sans">
+    <div className="app-safe-area min-h-screen max-w-md mx-auto bg-[#f5f5f0] shadow-2xl overflow-hidden relative font-sans">
       {screen === 'WELCOME' && renderWelcome()}
       {screen === 'TOSS' && renderToss()}
       {screen === 'RESULT' && renderResult()}
