@@ -1,0 +1,5 @@
+{
+  "name": "三钱起卦法",
+  "description": "基于曾仕强教授三枚硬币起卦法的单机版工具，包含完整起卦、变卦逻辑与本地历史记录功能。",
+  "requestFramePermissions": []
+}
