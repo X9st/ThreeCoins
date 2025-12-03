@@ -28,6 +28,19 @@ ThreeCoins/
   └─ README.md          # 项目说明
 ```
 
+## 效果预览
+
+<p>
+  <img src="../images/1.jpg" width="240" />
+  <img src="../images/2.jpg" width="240" />
+  <img src="../images/3.jpg" width="240" />
+</p>
+<p>
+  <img src="../images/4.jpg" width="240" />
+  <img src="../images/5.jpg" width="240" />
+  <img src="../images/6.jpg" width="240" />
+</p>
+
 ## 技术栈
 - 框架：React 19 + Vite 6
 - UI：Tailwind CSS（通过 CDN 注入）
